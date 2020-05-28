@@ -1,0 +1,223 @@
+/* Start Main Rules */
+
+body {font-family: sans-serif;}
+.container {width: 1170px;margin: auto}
+
+/* End Main Rules */
+
+/* Start Header */
+
+.header .slider {
+    background-image: url("../images/slider.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px
+}
+.header .slider .container div {
+    padding-top: 200px;
+    width: 600px;
+    margin: auto;
+    text-align: center
+}
+.header .slider .container div h1 {
+    color: #FFF;
+    font-size: 50px;
+    margin: 0;
+    border-top: 4px solid #FFF;
+    border-bottom: 4px solid #FFF;
+    padding: 6px 0
+}
+.header .slider .container div button {
+    background: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #FFF;
+    font-weight: bold;
+    padding: 10px 30px;
+    color: #FFF
+}
+.header .navbar {background-color: #252F31;}
+.navbar .container h2 {color: #FFF;text-transform: capitalize}
+.navbar .container h2 span {color: #2ECC71}
+.navbar .container ul {list-style: none;color: #FFF}
+.navbar .container ul li {display: inline-block;padding: 10px 8px}
+.navbar .container ul li a {text-decoration: none;color: #FFF}
+.navbar .container ul li a:hover,
+.navbar .container ul li a.active {color: #2CB576}
+
+/* End Header */
+
+/* Start Features */
+
+.features {padding: 40px}
+.features .container .feat {width: 33.3333%}
+
+/* Start Features */
+
+/* Start About Me */
+
+.about_me {background-color: #F2F2F2}
+.about_me .container .image {width: 40%}
+.about_me .container .image img {width: 100%}
+.about_me .container .info {width: 60%}
+.about_me .container > .info > h2 {margin: 25px 0 20px 40px}
+.about_me .container > .info > p {margin: 0 10px 25px 40px}
+.about_me .container > .info > p:last-of-type {margin: 0 10px 15px 40px}
+.about_me .container .info > div {padding-left: 40px}
+.about_me .container .info div div {width: 50%}
+.about_me .container .info div div .icon {width: 15%;padding-top: 25px}
+.about_me .container .info div div .info {width: 82%;padding-left: 3%}
+.about_me .container .info div div .info h3 {margin-bottom: 5px}
+.about_me .container .info div div .info p {margin-top: 5px}
+
+/* End About Me */
+
+/* Start My Skills */
+
+.my_skills .container .info,
+.my_skills .container .charts {width: 44%;padding: 3% 3% 5%}
+.my_skills .container .info button {margin-top: 25px}
+.my_skills .container .charts .chart div {background-color: #F2F2F2;height: 25px}
+.my_skills .container .charts .chart div span {
+    background-color: #2DCC70;
+    height: 25px;
+    display: inline-block;
+    text-align: right;
+    line-height: 25px;
+    color: #FFF;
+    font-weight: bold
+}
+
+/* End My Skills */
+
+/* Start Resume */
+
+.resume {text-align: center;background-color: #F2F2F2;padding: 60px}
+.resume .container p {padding: 0 40px}
+.resume .container button {margin-top: 25px}
+
+/* End Resume */
+
+/* Start My Education */
+
+.education .container .info,
+.education .container .edu {width: 44%;padding: 3%}
+.education .edu .course {margin-top: 70px}
+.education .edu .course h3 {margin-bottom: 10px}
+
+/* End My Education */
+
+/* Start Testemonials */
+
+.testemonials {text-align: center;background-color: #F2F2F2;padding: 60px}
+.testemonials .container q {font: italic bold 18px/1.7 arial}
+.testemonials .container ul {margin: auto;display: inline-block;padding: 0}
+.testemonials .container ul li {
+    border: 2px solid #2DCC70;
+    list-style: none;
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+    cursor: pointer
+}
+.testemonials .container ul li:nth-child(2),
+.testemonials .container ul li:hover {background-color: #2DCC70}
+
+/* End Testemonials */
+
+/* Start Portfolio */
+
+.portfolio {text-align: center;padding: 50px 0 80px}
+.portfolio .container .work div {width: 33.33333%;margin: 10px 0}
+.portfolio .container .work div img {border: 1px solid #CCCCCC;padding: 3px }
+
+/* End Portfolio */
+
+/* Start Contact Me */
+
+.contact_me {background-color: #252F31}
+.contact_me .container .info,
+.contact_me .container .form {width: 44%;padding: 5% 3%}
+.contact_me .container .info h2 {color: #FFF}
+.contact_me .container .info p {color: #6A6E71;line-height: 1.7}
+.contact_me .container .info p span {color: #D1D6DA;font-weight: bold}
+.contact_me .container .form label {display: block;color: #D1D6DA;margin: 20px 0}
+.contact_me .container .form label input {
+    display: block;
+    background-color: #4B5557;
+    border: none;
+    width: 85%;
+    padding: 10px;
+    color: #FFF;
+    margin-top: 10px
+}
+.contact_me .container .form input[type="submit"] {
+    color: #FFF;
+    background-color: #191E22;
+    padding: 10px 20px;
+    border: none;
+    margin-top: 10px
+}
+.contact_me .container .form label textarea {
+    display: block;
+    background-color: #4B5557;
+    border: none;
+    width: 85%;
+    padding: 10px;
+    color: #FFF;
+    height: 300px;
+    margin-top: 10px
+    
+}
+
+/* End Contact Me */
+
+/* Start Footer */
+
+.footer {background-color: #191E22;padding: 15px}
+.footer .container .info {width: 80%}
+.footer .container .social {width: 17%;margin-top: 5px}
+.footer .container .social ul {list-style: none;margin: 0;padding: 0}
+.footer .container .social ul li {padding-left: 5px}
+.footer .container .social ul li i {color: #6A6E71}
+.footer .container .social ul li i:hover {color: #2DCC70;cursor: pointer}
+
+/* End Footer */
+
+/* Start My Framework */
+
+.float_fix{clear: both}
+.h {text-transform: capitalize;color: #777}
+.p {color: #888;line-height: 1.7}
+i {color: #2DCC70}
+.button {
+    background: none;
+    padding: 10px 30px;
+    border: 3px solid #2DCC70;
+    color: #2DCC70;
+    font-weight: bold;
+}
+.patch{
+    background-color: #2DCC70;
+    color: #FFF;
+    padding: 4px 10px;
+    display: inline-block;
+    margin-top: 10px
+}
+.hr {
+    margin: 30px 0;
+    border: none;
+    height: 1px;
+    background-color: #999
+}
+.big_hr {
+    border: none;
+    height: 1px;
+    background-color: #999
+}
+.fl_left {float: left}
+.fl_right {float: right}
+
+/* End My Framework */
